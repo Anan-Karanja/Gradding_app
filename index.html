@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Grading app</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Please enter your marks</h2>
+        <div id="form-grades">
+                <label for="javascript">Javascript</label>
+                <input id="javascript" type="number">
+<br>
+                <label for="css">Css</label>
+                <input id="css" type="number">
+<br>
+                <label for="html">Html</label>
+                <input id="html" type="number">
+<br>
+            <div id="sub">
+                <label for="sub_1">Click to Submit</label>
+                 <button id="sub_1" onclick="calculateSum()">Submit</button>
+            </div>     
+
+    </div>
+    <label id="results"></label>
+    
+    <script src="./app.js" defer></script>
+
+</body>
+</html>
